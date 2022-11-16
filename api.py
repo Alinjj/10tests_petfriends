@@ -89,7 +89,7 @@ class PetFriends:
     def update_pet_info(self, auth_key: json, pet_id: str, name: str,
                         animal_type: str, age: int) -> json:
         """Метод отправляет запрос на сервер о обновлении данных питомуа по указанному ID и
-        возвращает статус запроса и result в формате JSON с обновлённыи данными питомца"""
+        возвращает статус запроса и result в формате JSON с обновлённыи данными"""
 
         headers = {'auth_key': auth_key['key']}
         data = {
